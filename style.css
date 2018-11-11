@@ -55,7 +55,8 @@ a {
 
 /* First image (Logo. Full height) */
 .bgimg-1 {
-    background-image: url('images/DestructionIsEvolutionary_Cover.jpg');
+    background-image: url('images/DestructionIsEvolutionary.jpg');
+    background-image: url('images/DIE-Logo-Stone.png');
     min-height: 100%;
 }
 
