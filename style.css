@@ -5,6 +5,10 @@ body, html {
     line-height: 1.8;
 }
 
+p {
+    text-align: justify;
+}
+
 .body{
     background-image: url('images/BrickBackground.jpg');
 }
