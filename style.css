@@ -59,8 +59,9 @@ a {
 
 /* First image (Logo. Full height) */
 .bgimg-1 {
-    background-image: url('images/DestructionIsEvolutionary.jpg');
+    background-image: url('images/DestructionIsEvolutionary_Cover.jpg');
     min-height: 100%;
+    min-width: 40%;
 }
 
 /* Second image (Portfolio) */
@@ -76,7 +77,7 @@ a {
 }
 
 .bgimg-4 {
-    background-image: url("images/DestructionIsEvolutionary.jpg");
+    background-image: url("images/Smoke.jpg");
     min-height: 200px;
 }
 
