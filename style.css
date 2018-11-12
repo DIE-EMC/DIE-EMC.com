@@ -79,6 +79,7 @@ a {
 .bgimg-4 {
     background-image: url("images/Smoke.jpg");
     min-height: 200px;
+    background-size: cover;
 }
 
 .w3-wide {letter-spacing: 10px;}
