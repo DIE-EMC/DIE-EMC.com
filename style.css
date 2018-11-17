@@ -5,6 +5,11 @@ body, html {
     line-height: 1.8;
 }
 
+.about {
+    font-family: 'Rock Salt', cursive;
+    font-size: 19px;
+}
+
 p {
     text-align: justify;
 }
@@ -20,10 +25,6 @@ p {
 
 .portDesc{
     text-align: justify;
-}
-
-.w3-dancing_script {
-    font-family: 'Dancing Script', cursive;
 }
 
 .roboto {
