@@ -16,7 +16,9 @@ p {
 }
 
 .body{
-    /* background-image: url('Images/BrickBackground.jpg'); */
+    background-image: url('Images/BrickBackground.jpg');
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 .contentBG{
@@ -104,6 +106,7 @@ a {
     }
 }
 
+/*
 @media (max-width: 481px) {
     .body {
         background-image: url('Images/BrickBackground.jpg');
@@ -119,3 +122,4 @@ a {
         background-size: contain;
     }
 }
+*/
