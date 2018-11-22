@@ -111,17 +111,21 @@ a {
 }
 
 
-@media (max-width: 481px) {
+@media (max-width: 499px) {
     .bgimg-1 {
         background-image: url('Images/DestructionIsEvolutionary.jpg');
         background-repeat: no-repeat;
+        min-height: 100%;
+        min-width: 100%;
     }
 }
 
-@media (min-width: 481px) {
+@media (min-width: 500px) {
     .bgimg-1  {
         background-image: url('Images/DestructionIsEvolutionary_Cover.jpg');
         background-repeat: no-repeat;
+        min-height: 100%;
+    min-width: 100%;
     }
 }
 */
