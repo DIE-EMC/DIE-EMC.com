@@ -17,6 +17,7 @@ p {
 
 .body{
     background-image: url('Images/BrickBackground.jpg');
+    background-position: center;
     max-width: 100%;
     overflow-x: hidden;
 }
@@ -53,7 +54,6 @@ a {
 
 /* Create a Parallax Effect */
 .bgimg-1, .bgimg-2, .bgimg-3 {
-    opacity: ;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
