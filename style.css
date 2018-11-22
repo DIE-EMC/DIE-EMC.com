@@ -93,6 +93,10 @@ a {
     font:14px Helvetica,Arial,sans-serif; width:100%;
 }
 
+.button {
+    background-color: black;
+    color: white;
+}
 
 
 .w3-wide {letter-spacing: 10px;}
