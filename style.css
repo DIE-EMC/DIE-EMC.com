@@ -64,11 +64,11 @@ a {
 /* First image (Logo. Full height) */
 .bgimg-1 {
     background-image: url('Images/DestructionIsEvolutionary_Cover.jpg');
-    height: 100%;
-    width: 100%;
+    min-height: 100%;
+    min-width: 100%;
 }
 
-/* Second image (Portfolio) */
+/* Second image (Releases) */
 .bgimg-2 {
     background-image: url("Images/DestructionIsEvolutionary.jpg");
     min-height: 200px;
