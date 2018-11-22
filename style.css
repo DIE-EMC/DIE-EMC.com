@@ -16,7 +16,7 @@ p {
 }
 
 .body{
-    background-image: url('Images/BrickBackground.jpg');
+    /* background-image: url('Images/BrickBackground.jpg'); */
 }
 
 .contentBG{
@@ -101,5 +101,21 @@ a {
 @media only screen and (max-width: 1024px) {
     .bgimg-1, .bgimg-2, .bgimg-3 {
         background-attachment: scroll;
+    }
+}
+
+@media (max-width: 481px) {
+    .body {
+        background-image: url('Images/BrickBackground.jpg');
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+}
+
+@media (min-width: 481px) {
+    .body {
+        background-image: url('Images/BrickBackground.jpg');
+        background-repeat: no-repeat;
+        background-size: contain;
     }
 }
