@@ -17,6 +17,7 @@ function myFunction() {
     }
 }
 
+// Disable horizontal scrolling on mobile
 var scrollEventHandler = function()
 {
   window.scroll(0, window.pageYOffset)

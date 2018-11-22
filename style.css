@@ -108,16 +108,16 @@ a {
 
 /*
 @media (max-width: 481px) {
-    .body {
-        background-image: url('Images/BrickBackground.jpg');
+    .bgimg-1 {
+        background-image: url('Images/DestructionIsEvolutionary.jpg');
         background-repeat: no-repeat;
         background-size: contain;
     }
 }
 
 @media (min-width: 481px) {
-    .body {
-        background-image: url('Images/BrickBackground.jpg');
+    .bgimg-1  {
+        background-image: url('Images/DestructionIsEvolutionary_Cover.jpg');
         background-repeat: no-repeat;
         background-size: contain;
     }
