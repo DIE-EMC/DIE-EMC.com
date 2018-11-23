@@ -99,8 +99,9 @@ a {
 }
 
 
-.w3-wide {letter-spacing: 10px;}
+/* .w3-wide {letter-spacing: 10px;} */
 .w3-hover-opacity {cursor: pointer;}
+
 
 
 /* Turn off parallax scrolling for tablets and phones*/ 
@@ -110,7 +111,17 @@ a {
     }
 }
 
+@media (max-width: 499px) {
+    .w3-wide {
+        letter-spacing: 5px;
+    }
+}
 
+@media (min-width: 500px) {
+    .w3-wide {
+        letter-spacing: 10px;
+    }
+}
 
 @media (max-width: 499px) {
     .bgimg-1 {
