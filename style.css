@@ -99,7 +99,7 @@ a {
 }
 
 
-/* .w3-wide {letter-spacing: 10px;} */
+.w3-wide {letter-spacing: 10px;} 
 .w3-hover-opacity {cursor: pointer;}
 
 
@@ -112,14 +112,16 @@ a {
 }
 
 @media (max-width: 499px) {
-    .w3-wide {
-        letter-spacing: 5px;
+    .sectionHeader {
+        letter-spacing: 1px;
+        max-width: 100%;
     }
 }
 
 @media (min-width: 500px) {
-    .w3-wide {
+    .sectionHeader {
         letter-spacing: 10px;
+        max-width: 100%;
     }
 }
 
