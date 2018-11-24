@@ -111,20 +111,7 @@ a {
     }
 }
 
-@media (max-width: 499px) {
-    .sectionHeader {
-        letter-spacing: 1px;
-        max-width: 100%;
-    }
-}
-
-@media (min-width: 500px) {
-    .sectionHeader {
-        letter-spacing: 10px;
-        max-width: 100%;
-    }
-}
-
+/* FOR MOBILE */
 @media (max-width: 499px) {
     .bgimg-1 {
         background-image: url('Images/DestructionIsEvolutionary.jpg');
@@ -132,8 +119,14 @@ a {
         min-height: 100%;
         min-width: 100%;
     }
+
+    .sectionHeader {
+        letter-spacing: 1px;
+        max-width: 100%;
+    }
 }
 
+/* FOR DESKTOP */
 @media (min-width: 500px) {
     .bgimg-1  {
         background-image: url('Images/DestructionIsEvolutionary_Cover.jpg');
@@ -141,5 +134,10 @@ a {
         min-height: 100%;
     min-width: 100%;
     }
+
+    .sectionHeader {
+        letter-spacing: 10px;
+        max-width: 100%;
+    }
 }
-*/
+
